@@ -1,25 +1,49 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #F0F8FF;
+  color: #F8F8FF;
+  font-size: 16px;
+  line-height: normal;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #778899;
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
+  background: url(images/bloc-logo.png);
   margin: 20px;
   width: 100px;
 }
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+h3 {
+  font-size: 16px;
+  line-height: normal;
+  text-align: left;
+  font-weight: bold;
+}
+p  {
+  font-size: 100%;
+  line-height: normal;
+  text-align: left;
+}
+
 
 .large-pic {
   width: 100%;
 }
 
 .medium-pic {
+  background: url(images/instagram-pic.jpg) top-center;
+  margin: 20px;
   width: 70%;
 }
 
@@ -33,13 +57,17 @@ nav {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   float: right;
 }
 
 li {
   float: right;
   padding: 30px;
+  a:listed { color:#0070BB; } /* unvisited */
+  a:visited { color:#0070BA; } /* visited */
+  a:hover { color:#0070BC; } /* mouse over */
+  a:active { color:#0070BD; } /* selected */
 }
 
 article {
@@ -47,6 +75,6 @@ article {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 30 auto;
   width: 50%;
 }
